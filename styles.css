@@ -1,3 +1,7 @@
+.c{
+    font-size: 0.9rem;
+}
+
 body{
     background: #f7f7f7;
     font-weight: normal;
@@ -5,14 +9,21 @@ body{
     position: relative;
 }
 
-.d1, .d2, .d4, .title, .date{
+.contact-list, .uni-list, .skill-list{
+    list-style: none;
+    position: relative;
+    left: -70%;
+    text-align: right;
+}
+
+.d1, .d2, .d4, .d6, .d8, .d0, .title, .date{
     font-family: 'Roboto', sans-serif;
 }
 
 .d1{
     background: white;
     border: 1px solid black;
-    top: 45px;
+    top: 35px;
     text-align: center;
     position: relative;
     width: 500px;
@@ -30,7 +41,7 @@ body{
 
 .d3{
     border-left: 3px solid rgb(96, 95, 95);
-    height: 500px;
+    height: 700px;
     margin-left: 40px;
     margin-top: 50px;
     width: 3px;
@@ -41,10 +52,32 @@ body{
 .d4{
     position: absolute;
     left: 25%;
-    top: 33%;
+    top: 26%;
     }
 .d5{
     position: relative;
+}
+
+.d6{
+    position: absolute;
+    top: 26%;
+    left: 13%;
+}
+
+.d7{
+    position: relative;
+}
+
+.d8{
+    position: absolute;
+    left: 10.5%;
+    top: 44%;
+}
+
+.d0{
+    position: absolute;
+    left: 15%;
+    top: 79%;
 }
 .date{
         margin-top: 10px;
@@ -81,4 +114,8 @@ body{
     font-size: 2rem;
     margin-top: 7px;
     margin-bottom: 0;
+}
+
+.uni-list{
+    left: -55%;
 }
